@@ -722,10 +722,12 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  border: 5px solid #00a6f1;
   padding: 1.3rem;
   border-radius: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  height: 6rem;
+  vertical-align: middle;
 }
 
 .service-box:hover .ico-circle {
@@ -736,7 +738,8 @@ a:hover {
 }
 
 .service-box .service-ico {
-  color: #1e1e1e;
+  color: white;
+  text-align: center;
 }
 
 .service-box .ico-circle {
