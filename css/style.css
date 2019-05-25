@@ -1298,4 +1298,12 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+
+  .card-blog {
+    margin-bottom: 2rem;
+  }
+
+  .counter-box {
+    margin-bottom: 3rem;
+  }
 }
