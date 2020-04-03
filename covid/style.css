@@ -78,6 +78,11 @@ section.pricing {
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
+
+  .pricing .card {
+    margin-top: 1.5rem;
+  }
+
   .pricing .card:hover .btn {
     opacity: 1;
   }
