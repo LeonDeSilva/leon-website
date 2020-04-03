@@ -1,6 +1,24 @@
+body {
+  background: #121212;
+}
+
+hr {
+  background-color: #202020;
+}
+
+#headingDiv {
+  color: #007bff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 section.pricing {
-  background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background-color: #151515;
+}
+
+.card {
+  background: #202020;
+  color: white;
 }
 
 .pricing .card {
@@ -39,13 +57,17 @@ section.pricing {
 }
 
 .pricing .btn {
-  font-size: 80%;
+  font-size: 160%;
   border-radius: 5rem;
   letter-spacing: .1rem;
   font-weight: bold;
   padding: 1rem;
-  opacity: 0.7;
   transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 /* Hover Effects on Card */
@@ -58,5 +80,9 @@ section.pricing {
   }
   .pricing .card:hover .btn {
     opacity: 1;
+  }
+
+  hr {
+    background-color: black;
   }
 }
