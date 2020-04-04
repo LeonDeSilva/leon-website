@@ -12,6 +12,10 @@ hr {
   margin-bottom: 40px;
 }
 
+#sourceDiv {
+  color: #888888;
+}
+
 section.pricing {
   background-color: #151515;
 }
