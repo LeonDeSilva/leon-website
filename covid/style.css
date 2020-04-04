@@ -12,6 +12,10 @@ hr {
   margin-bottom: 40px;
 }
 
+.country {
+  font-size: 3.0rem;
+}
+
 #sourceDiv {
   color: #888888;
 }
@@ -93,6 +97,10 @@ section.pricing {
   .carousel-control-next {
     margin-top: -900px;
   }
+
+  .container {
+    max-width: 1024px;
+  }
 }
 
 /* Hover Effects on Card */
@@ -122,6 +130,10 @@ section.pricing {
 
   .carousel-control-next {
     margin-top: -600px;
+  }
+
+  .country {
+    font-size: 1.5rem;
   }
 }
 
