@@ -74,6 +74,27 @@ section.pricing {
   border-color: #007bff;
 }
 
+
+@media (min-width: 576px) {
+.carousel-control-prev {
+    margin-top: -1700px;
+  }
+
+  .carousel-control-next {
+    margin-top: -1700px;
+  }
+}
+
+@media (min-width: 768px) {
+.carousel-control-prev {
+    margin-top: -900px;
+  }
+
+  .carousel-control-next {
+    margin-top: -900px;
+  }
+}
+
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {
@@ -94,4 +115,13 @@ section.pricing {
   hr {
     background-color: black;
   }
+
+  .carousel-control-prev {
+    margin-top: -600px;
+  }
+
+  .carousel-control-next {
+    margin-top: -600px;
+  }
 }
+

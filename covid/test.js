@@ -37,16 +37,34 @@ function sendRequest() {
 	    document.getElementById("data12").innerHTML = localNewCount;
 	    document.getElementById("data13").innerHTML = localActiveCases;
 
-		document.getElementById("data21").innerHTML = localRecoveredCount
+		document.getElementById("data21").innerHTML = localRecoveredCount;
 
 		
 		if (localNewDeathCount > 0) {
 	    	document.getElementById("data22").innerHTML = localDeathCount + " (+" + localNewDeathCount + ")";
 	    } else {
-	    	document.getElementById("data22").innerHTML = localDeathCount
+	    	document.getElementById("data22").innerHTML = localDeathCount;
 	    }
 	    
 	    document.getElementById("data23").innerHTML = localCountInHospitals;
+
+	    // Global
+
+	    document.getElementById("head11_2").innerHTML = "Total"
+	    document.getElementById("head12_2").innerHTML = "New"
+	    document.getElementById("head13_2").innerHTML = "Recovered"
+
+	    document.getElementById("head21_2").innerHTML = "Recover Rate"
+	    document.getElementById("head22_2").innerHTML = "Deaths"
+	    document.getElementById("head23_2").innerHTML = "New Deaths"
+
+	    document.getElementById("data11_2").innerHTML = globalTotalCount;
+	    document.getElementById("data12_2").innerHTML = globalNewCount;
+	    document.getElementById("data13_2").innerHTML = globalRecoveredCount;
+
+		document.getElementById("data21_2").innerHTML = ((globalRecoveredCount / globalTotalCount) * 100).toFixed(2) + "%";
+    	document.getElementById("data22_2").innerHTML = globalDeathCount;
+	    document.getElementById("data23_2").innerHTML = globalNewDeathCount;
   	
 	}
 }
