@@ -3,7 +3,7 @@ body {
 }
 
 hr {
-  background-color: #202020;
+  background-color: #24344d;
 }
 
 #headingDiv {
@@ -22,11 +22,11 @@ hr {
 }
 
 section.pricing {
-  background-color: #151515;
+  background-color: #192231;
 }
 
 .card {
-  background: #202020;
+  background: #24344d;
   color: white;
 }
 
