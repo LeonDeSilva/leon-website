@@ -6,10 +6,22 @@ hr {
   background-color: #24344d;
 }
 
+#mainNav {
+  background-color: #121212;
+  margin-top: 50px;
+}
+
+.nav-item {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 #headingDiv {
   color: #007bff;
-  margin-top: 40px;
-  margin-bottom: 40px;
+}
+
+#stats-div {
+  margin-top: 180px;
 }
 
 .country {
@@ -79,28 +91,22 @@ section.pricing {
   border-color: #007bff;
 }
 
-
-@media (min-width: 576px) {
-.carousel-control-prev {
-    margin-top: -1700px;
-  }
-
-  .carousel-control-next {
-    margin-top: -1700px;
-  }
-}
-
 @media (min-width: 768px) {
-.carousel-control-prev {
-    margin-top: -900px;
-  }
-
-  .carousel-control-next {
-    margin-top: -900px;
-  }
-
   .container {
     max-width: 1024px;
+  }
+
+  .nav-item {
+    font-size: 2rem;
+  }
+
+  #stats-div {
+    margin-top: 240px;
+  }
+
+  #mainNav {
+    background-color: #121212;
+    margin-top: 50px;
   }
 }
 
@@ -125,16 +131,15 @@ section.pricing {
     background-color: black;
   }
 
-  .carousel-control-prev {
-    margin-top: -600px;
-  }
-
-  .carousel-control-next {
-    margin-top: -600px;
-  }
-
   .country {
     font-size: 1.5rem;
   }
-}
 
+  .nav-item {
+    font-size: 1.5rem;
+  }
+
+  #stats-div {
+    margin-top: 100px;
+  }
+}
