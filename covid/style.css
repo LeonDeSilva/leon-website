@@ -8,7 +8,7 @@ hr {
 
 #mainNav {
   background-color: #121212;
-  margin-top: 50px;
+  padding-top: 55px;
 }
 
 .nav-item {
@@ -18,6 +18,16 @@ hr {
 
 #headingDiv {
   color: #007bff;
+}
+
+.charts {
+  height: 50%;
+  width: 50%;
+
+  background: #192231;
+  border: 2px solid #121212;
+  float: left;
+  margin-top: 2px;
 }
 
 #stats-div {
@@ -31,6 +41,7 @@ hr {
 #sourceDiv {
   color: #888888;
   font-size: 1.0rem;
+  float: left;
 }
 
 section.pricing {
@@ -104,9 +115,16 @@ section.pricing {
     margin-top: 240px;
   }
 
-  #mainNav {
-    background-color: #121212;
-    margin-top: 50px;
+  .charts {
+    height: 60%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .charts {
+    height: 60%;
+    width: 100%;
   }
 }
 
@@ -141,5 +159,10 @@ section.pricing {
 
   #stats-div {
     margin-top: 100px;
+  }
+
+  .charts {
+    height: 50%;
+    width: 50%;
   }
 }

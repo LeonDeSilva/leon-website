@@ -31,7 +31,7 @@ function sendRequest() {
 
 	    document.getElementById("head21").innerHTML = "Recovered"
 	    document.getElementById("head22").innerHTML = "Deaths"
-	    document.getElementById("head23").innerHTML = "Hospitalized"
+	    document.getElementById("head23").innerHTML = "SUSPECTED"
 
 	    document.getElementById("data11").innerHTML = localTotalCount;
 	    document.getElementById("data12").innerHTML = localNewCount;
